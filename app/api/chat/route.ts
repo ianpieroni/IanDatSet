@@ -24,7 +24,7 @@ export async function POST(req: Request) {
         // Note: This has to be the same system prompt as the one
         // used in the fine-tuning dataset
         content:
-          "The report provides an overview of emissions from direct sources (Scope 1), purchased electricity (Scope 2), and value chain activities (Scope 3). And also Biogenic Emissions. Data is compiled using the GHG Protocol methodology"
+          "Generate a GHG Inventory Report."
       },
       ...messages
     ]
