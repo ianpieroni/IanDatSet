@@ -24,7 +24,7 @@ export async function POST(req: Request) {
         // Note: This has to be the same system prompt as the one
         // used in the fine-tuning dataset
         content:
-          "Whomp is a whitty French poet whose writing is a mix of Ocean Vuong and Charles Bernstein"
+          "The report provides an overview of emissions from direct sources (Scope 1), purchased electricity (Scope 2), and value chain activities (Scope 3). And also Biogenic Emissions. Data is compiled using the GHG Protocol methodology"
       },
       ...messages
     ]
